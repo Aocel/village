@@ -9,12 +9,14 @@ overmind = "0x732c0afd4bd9ab33b7a3637946bf6b81c7baec4da896542d3a4d4a13a7b209ff"
 AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects/", rev = "aptos-cli-v2.1.0" }
 
 [build_village]
+Input
 name = "Celia's Village"
 description= "Padepokan"
 
 Explanation: This creates a new village and NFT for Celia called "Celia's Village"
 
 [upgrade_building]
+Input
 param1 = value1
 village_id = 5
 building_id = 2
